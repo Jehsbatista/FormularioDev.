@@ -1,0 +1,122 @@
+
+/*todos os elementos da página*/
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+/*elementos com o ID titulo*/
+#titulo{
+
+    font-family: sans-serif;
+    color: rgb(126, 10, 110);
+    margin-left: 7%
+
+}
+
+/*elementos com o ID subtitulo*/
+ #subtitulo{
+
+    font-family: sans-serif;
+    color: rgb(17, 16, 19);
+    margin: 2%;
+
+ }
+
+ /*elemento de tag <fieldset>*/
+ fieldset{
+
+    border: 0; 
+}
+
+
+body{
+    background-color: rgb(232, 226, 241);      
+    font-family: sans-serif;                   
+    font-size: 1em;                            
+    color: #471266;  
+    margin-left: 20%;                          
+    margin-top: 5%;                            
+    justify-content: initial;                   
+
+}
+
+
+
+
+input, select, textarea, button{
+    
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: cornsilk;
+}
+
+.campo {
+    margin-bottom: 1em;
+
+}
+
+.campo label{
+    margin-bottom: 0.4em;
+    color: #471266;
+    display: block;
+
+}
+
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 6em;
+
+}
+.campo input[type= "text"], .campo input[type= "email"], .campo select, .campo textarea{
+    padding: 0.1em;
+    border: 1px solid #471266;
+    box-shadow: 2px 2px 2px; color: #471266;
+    display: block;
+}
+
+.campo select option{
+    padding-right: 15em;
+
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus{
+    background-color: rgb(241, 233, 243);
+}
+
+.botão {
+    font-size: 1.2em;
+    background-color: #dedae9;
+    border: 0;
+    margin-bottom: 1em;
+    color: honeydew;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px; color: rgba(143, 12, 88);
+    text-shadow: 1px 1px 1px ; color: rgb(80, 10, 59);
+    position: absolute;
+    top:100%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.botão :hover {
+    background: #5f0558;
+    box-shadow: inset 2px 2px 2px rgba#000.2;
+    text-shadow: none;
+
+}
+#check{
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
